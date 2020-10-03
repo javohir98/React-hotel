@@ -6,6 +6,10 @@ import './styles/Home.css';
 import home__about__sign from '../../images/home-about/sign.png';
 import home__about from '../../images/home-about/home-about.png';
 import testimonial__left from '../../images/testimonial-left.jpg';
+import gallery__1 from '../../images/gallery/gallery-1.jpg';
+import gallery__2 from '../../images/gallery/gallery-2.jpg';
+import gallery__3 from '../../images/gallery/gallery-3.jpg';
+import gallery__4 from '../../images/gallery/gallery-4.jpg';
 import Services from '../Services';
 
 export default class Home extends Component {
@@ -37,7 +41,7 @@ export default class Home extends Component {
 												class='datepicker_pop check__in hasDatepicker'
 												id='dp1601369730130'
 											/>
-											<i class='fas fa-arrow-down'></i>
+											<i class='fas fa-angle-down'></i>
 										</div>
 									</div>
 									<div class='filter__form__item'>
@@ -49,7 +53,7 @@ export default class Home extends Component {
 												class='datepicker_pop check__in hasDatepicker'
 												id='dp1601369730130'
 											/>
-											<i class='fas fa-arrow-down'></i>
+											<i class='fas fa-angle-down'></i>
 										</div>
 									</div>
 									<div class='filter__form__item filter__form__item--select'>
@@ -106,7 +110,7 @@ export default class Home extends Component {
 							</div>
 							<div className='col-lg-6'>
 								<div class='home__about__pic'>
-									<img src={home__about} alt='' />
+									<img className='w-100' src={home__about} alt='' />
 								</div>
 							</div>
 						</div>
@@ -201,6 +205,137 @@ export default class Home extends Component {
 										<h5>Testimonials</h5>
 										<h2>What do customers say about us?</h2>
 									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class='chooseus spad set-bg'>
+					<div class='container'>
+						<div class='row d-flex justify-content-center'>
+							<div class='col-lg-8 text-center'>
+								<div class='chooseus__text'>
+									<div class='section-title'>
+										<h5>WHY CHOOSE US</h5>
+										<h2>
+											Contact us now to get the latest deals and for the next
+											booking
+										</h2>
+									</div>
+									<a href='#' class='primary-btn'>
+										Booking Now
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section className='gallary spad'>
+					<div class='gallery__text'>
+						<div class='container'>
+							<div class='row'>
+								<div class='col-lg-6 col-md-6 col-sm-6'>
+									<div class='section-title'>
+										<h5>OUR GALLERY</h5>
+										<h2>Explore The Most Beautiful In The Hotel</h2>
+									</div>
+								</div>
+								<div class='col-lg-6 col-md-6 col-sm-6'>
+									<div class='gallery__title'>
+										<p>
+											Duis aute irure dolor in reprehenderit in voluptate velit
+											esse cillum dolore eu fugiat nulla pariatur. Sunt in culpa
+											qui officia deserunt mollit anim.
+										</p>
+										<a href='#' class='primary-btn'>
+											View Gallery <i className='fas fa-arrow-right' />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="gallery__slider">
+						<div className="container-fluid w-100">
+							<div className="row">
+								<div className="col-lg-3 col-md-3 col-sm-3">
+									<div className="gallery__item">
+										<img src={gallery__1} alt=""/>
+									</div>
+								</div> 
+								<div className="col-lg-3 col-md-3 col-sm-3">
+									<div className="gallery__item">
+										<img src={gallery__2} alt=""/>
+									</div>
+								</div>
+								<div className="col-lg-3 col-md-3 col-sm-3">
+									<div className="gallery__item">
+										<img src={gallery__3} alt=""/>
+									</div>
+								</div>
+								<div className="col-lg-3 col-md-3 col-sm-3">
+									<div className="gallery__item">
+										<img src={gallery__4} alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				<section className='latest-blog spad'>
+					<div className="container">
+						<div className="row">
+							<div class="col-lg-12">
+								<div class="section-title">
+									<h5>NEWS &amp; EVENT</h5>
+									<h2>From Our Blog</h2>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
+								<div class="latest__blog__pic pic-1 set-bg"></div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">
+								<div className="latest__blog__text">
+									<div className="label">Hotel</div>
+									<h5>Ut enim ad minim veniam, quis nostrud</h5>
+									<p><i class="fa fa-clock-o"></i> 19th March, 2019</p>
+									<a href="#">Read More</a>
+								</div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-3">
+								<div class="latest__blog__pic pic-2 set-bg"></div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-4">
+								<div class="latest__blog__text">
+									<div class="label">Restaurant</div>
+									<h5>Ut enim ad minim veniam, quis nostrud</h5>
+									<p><i class="fa fa-clock-o"></i> 22th March, 2019</p>
+									<a href="#">Read More</a>
+								</div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
+								<div class="latest__blog__pic latest__blog__pic__last__row pic-3 set-bg"></div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
+								<div class="latest__blog__text">
+									<div class="label">Travel</div>
+									<h5>Ut enim ad minim veniam, quis nostrud</h5>
+									<p><i class="fa fa-clock-o"></i> 25th March, 2019</p>
+									<a href="#">Read More</a>
+								</div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-7">
+								<div class="latest__blog__pic latest__blog__pic__last__row pic-4 set-bg"></div>
+							</div>
+							<div class="col-lg-3 p-0 order-lg-7 col-md-6 order-md-8">
+								<div class="latest__blog__text">
+									<div class="label">Booking</div>
+									<h5>Ut enim ad minim veniam, quis nostrud</h5>
+									<p><i class="fa fa-clock-o"></i> 29th March, 2019</p>
+									<a href="#">Read More</a>
 								</div>
 							</div>
 						</div>

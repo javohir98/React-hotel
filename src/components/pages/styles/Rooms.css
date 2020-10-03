@@ -150,12 +150,12 @@
     position: absolute;
 }
 
-.carasuel {
+.main__carasuel .carasuel {
     width: 1800px;
     margin: 0 auto;
 }
 
-.item {
+.main__carasuel .carasuel .item {
     width: 600px!important;
     height: 400px;
 }

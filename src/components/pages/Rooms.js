@@ -234,7 +234,8 @@ export default class Rooms extends Component {
 											autoplayTimeout={3000}
 											smartSpeed={2500}
 											loop
-											nav>
+											nav
+										>
 											<div class='item'>
 												<img src={room__4} />
 											</div>
