@@ -1,0 +1,13 @@
+.services__item {
+    margin-bottom: 40px;
+}
+
+.services__item h4 {
+    color: #19191A;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.services__item p {
+    margin-bottom: 0;
+}
